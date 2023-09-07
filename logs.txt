@@ -1,0 +1,11 @@
+commit 767b0c9d0ede845349dfefe80bac834d974b5708
+Author: CCDM27 <CCDM27@CCDM27.local>
+Date:   Thu Sep 7 12:42:47 2023 -0700
+
+    Titulo y encabezado
+
+commit f23fc1dc0f547e7c0de921fd1470fb783f593182
+Author: CCDM27 <CCDM27@CCDM27.local>
+Date:   Thu Sep 7 12:35:42 2023 -0700
+
+    Commit inicial
