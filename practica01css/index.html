@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Práctica 01 HTML + CSS</title>
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
     <header>
         <img src="./img/resplandor.png" alt="fondo">
-        <img src="./img/logo.png" alt="logo empresa">
+        <img id="logo" src="./img/logo.png" alt="logo empresa">
         <nav>
             <ul>
                 <li>Inicio</li>
@@ -19,41 +20,41 @@
                 <li>seccion</li>
             </ul>
             <form action="#">
-                <input type="text" placeholder="busdcar aqui">
+                <input type="text" placeholder="busdcar aqui...">
                 <input type="submit" value="buscar">
             </form>
         </nav>
     </header>
-    <section>
+    <section id="seccion01">
         <article>
-            <img src="./img/slide2.jpg" alt="Banner">
+            <img src="./img/slide2.jpg" alt="Banner"> 
         </article>
     </section>
-    <section>
+    <section id="seccion02">
         <article>
-            <img src="./img/separador.jpg" alt="">
+            <img src="./img/separador.jpg" alt="Separador">
             <br>
-            una seccion
+            <span class="unaSeccion nito">una seccion</span>
             <br>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nulla voluptas facilis! Error debitis eos, fugit corrupti consequatur amet quis! Qui velit quam eius ratione iure similique fugit saepe animi?
             <p></p>
             <input type="submit" value="Ver mas">
         </article>
         <article>
-            <img src="./img/separador.jpg" alt="">
+            <img src="./img/separador.jpg" alt="Separador">
             <br>
-            Otra seccion
+            <span class="otraSeccion nito">Otra seccion</span>
             <br>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus ipsam saepe quae assumenda aperiam sunt voluptas, quis unde explicabo harum laudantium sed nisi. Iste excepturi molestiae beatae dolores, repellendus eveniet.
             <br>
             <input type="submit" value="Ver mas">
         </article>
         <article>
-            <img src="./img/separador.jpg" alt="">
+            <img src="./img/separador.jpg" alt="Separador">
             <br>
-            Un Video
+            <span class="otraSeccion nito">Un Video</span>
             <br>
-            <img src="./img/video.jpg" alt="">
+            <img src="./img/video.jpg" alt="Video">
         </article>
     </section>
 </body>
