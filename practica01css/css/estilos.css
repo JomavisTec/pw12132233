@@ -64,3 +64,34 @@ header nav form input[type="submit"]{
     width: 98%;
     border: 5px solid rgba(150, 150, 150, 0.5);
 }
+
+#seccion02{
+    margin-bottom: 50px;
+}
+
+#seccion02 article{
+    width: 33.0%;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+#seccion02 article input[type="submit"]{
+    background: white;
+    border-radius: 5px;
+    color: blue;
+    padding: 12px;
+    margin-left: 30%;
+}
+
+.unaSeccion{
+    font-size: 4.5em; /*<------- 16px X 4.5*/
+}
+
+.nito{
+    font-weight: bold;
+}
+
+.otraSeccion{
+    font-size: 2.5em;
+}
