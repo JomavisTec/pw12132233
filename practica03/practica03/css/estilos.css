@@ -1,16 +1,28 @@
 body{
-    border: ipx solid red;
     font-size: 16px; /*1em*/
     margin: 0px auto;
     max-width: 1024px;
 }
+footer article{
+    width: 31.1%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    padding: 10px;
 
+}
+footer img{
+    width: 300px;
+}
 header nav ul li{
     width: 17%;
     display: inline-block;
     text-align: center;
-    padding: 8px 10px;
+    padding: 8px 14px;
     
+}
+header ul{
+    margin-left: -40px;
 }
 header nav ul li:nth-child(2){
     background: #849c3c;
@@ -27,6 +39,56 @@ header nav ul li:nth-child(4){
 header nav ul li:nth-child(5){
     background: lightgray;
 }
+hr{
+    background: #949494;
+    border-style: dashed;
+}
+section,footer{
+    background: #2c2c2c;
+}
+section article{
+    width: 17.9%;
+    height: 280px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 18px 8px;
+}
+section article:nth-child(2){
+    background: #849c3c;
+}
+section article:nth-child(3){
+    background: #353535;
+}
+section article:nth-child(4){
+    background: #d33040;
+}
+section article:nth-child(5){
+    background: lightgray;
+}
+section article img{
+    width: 150px;
+}
+section article ul{
+    list-style: none;
+}
+section article ul li{
+    margin-bottom: 10px;
+}
 .letra-blanca{
-    color: #ffff ;
+    color: #ffff;
+}
+.letra-azul{
+    color: lightblue;
+}
+.letra-gris{
+    color: #949494;
+}
+.read-more{
+    margin-left: 220px;
+}
+.tam-menu-lateral{
+    font-size: 1.1em;
+}
+.tam-tarjetas{
+    font-size: 1.7em;
 }
