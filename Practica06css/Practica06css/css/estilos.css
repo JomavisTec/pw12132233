@@ -1,0 +1,97 @@
+body{
+    font-size: 16px; /*1em*/
+    width: 1024px;
+    margin: 0px auto;
+}
+footer{
+    background: #000000;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+footer article{
+    display: inline-block;
+    width: 19%;
+    height: 120px;
+    vertical-align: top;
+}
+footer article:nth-child(5){
+    vertical-align: bottom;
+    margin-top: 110px;
+}
+footer article img{
+    margin-bottom: -10px;
+}
+header{
+    background: #000000;
+    padding: 10px 50px;
+}
+header article{
+    display: inline-block;
+}
+header article:last-child{
+    float: right;
+    padding-top: 10px;
+}
+#boton-prncipal{
+    background: #4b5fd5;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+#boton-secundario{
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 4px 5px;
+    margin-right: 10px;
+}
+#headerArt01 img{
+    vertical-align: middle;
+}
+#section01{
+    background-color: #dadbf1;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px 70px 0px;
+}
+#section01 input{
+    width: 550px;
+    height: 50px;
+    margin: 50px;
+}
+#section02{
+    margin: 70px 0px 40px 0px;
+}
+.letra-blanca{
+    color: #ffff;
+}
+.letra-mediana{
+    font-size: 1.2em;
+}
+.letra-morada{
+    color: #5668af;
+}
+.letra-grande{
+    font-size: 4em;
+}
+.nito{
+    font-weight: bold;
+}
+.tamaño-logo{
+    width: 40px;
+}
+.tarjetas{
+    display: inline-block;
+    width: 40%;
+    height: 150px;
+    vertical-align: top;
+}
+.tarjetas:nth-child(odd){
+    margin-left: 90px;
+}
+.tarjetas img{
+    width: 60px;
+    vertical-align: top;
+}
+.tarjetas article{
+    display: inline-block;
+}
